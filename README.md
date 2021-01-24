@@ -1,7 +1,7 @@
-通电自动启动电脑需要修改bios设置，可搜到
-将远程桌面软件设置为开机自启动
-windows下开机自启动脚本参考：https://blog.csdn.net/hailang86/article/details/103701329
-windows下自动登录脚本
+* 通电自动启动电脑需要修改bios设置，可搜到
+* 将远程桌面软件设置为开机自启动
+* windows下开机自启动脚本参考：https://blog.csdn.net/hailang86/article/details/103701329
+* windows下自动登录脚本
 ```
 @echo off
 :loop
