@@ -2,7 +2,7 @@
 将远程桌面软件设置为开机自启动
 windows下开机自启动脚本参考：https://blog.csdn.net/hailang86/article/details/103701329
 windows下自动登录脚本
-
+```
 @echo off
 :loop
 for /f %%i in ('curl --connect-timeout 3 -m 5 -I "www.dy2018.com" 2^>^&1 ^| findstr /c:"301" /c:"200" /c:"curl"') do set res=%%i
@@ -16,3 +16,4 @@ if %res% == HTTP/1.1 (
 )
 ping -n 3 127.1>nul
 goto loop
+```
